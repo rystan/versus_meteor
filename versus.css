@@ -1,1 +1,39 @@
-/* CSS declarations go here */
+body {
+   background: url(../img/sf2_background.jpg) no-repeat center bottom fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.col-xs-3 {
+background-color: red;
+}
+
+.col-xs-6 {
+background-color: green;
+}
+
+.col-xs-9 {
+background-color: blue;
+}
+
+div {
+   border: 1px solid black;
+}
+
+#timer {
+   font-size: 48px;
+   color: #FFFF00;
+}
+
+.name {
+   font-family: 'Vast Shadow', cursive;
+   color: #FFFF00;
+}
+
+.bar {
+   border: 2px solid red;
+   background-color: #FFFF00;
+}
+
