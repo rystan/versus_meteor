@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
    background: url(/img/sf2_background.jpg) no-repeat center bottom fixed;
+=======
+   background: url(../img/sf2_background.jpg) no-repeat center bottom fixed;
+>>>>>>> 578deea01ae0dd7d7c7628446c7879e9c89e316f
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;

@@ -1,8 +1,13 @@
 if (Meteor.isClient) {
   // counter starts at 0
   Session.setDefault("counter", 0);
+<<<<<<< HEAD
   Session.setDefault("thumb_left", "img/mike_thumb.jpg");
   Session.setDefault("thumb_right", "img/ben_thumb.jpg");
+=======
+  Session.setDefault("thumb_left", "./img/mike_thumb.jpg");
+  Session.setDefault("thumb_right", "./img/ben_thumb.jpg");
+>>>>>>> 578deea01ae0dd7d7c7628446c7879e9c89e316f
 
   Session.setDefault("name_left", "Mike Simons");
   Session.setDefault("name_right", "Ben Rood");
