@@ -7,12 +7,6 @@ if (Meteor.isClient) {
   Session.setDefault("name_left", "Mike Simons");
   Session.setDefault("name_right", "Ben Rood");
 
-  Template.hello.helpers({
-    counter: function () {
-      return Session.get("counter");
-    }
-  });
-
   Template.fight.helpers({
     thumb_left : function () {
        return Session.get("thumb_left");
@@ -25,13 +19,6 @@ if (Meteor.isClient) {
     },
     name_right : function () {
        return Session.get("name_right");
-    }
-  });
-
-  Template.hello.events({
-    'click button': function () {
-      // increment the counter when button is clicked
-      Session.set("counter", Session.get("counter") + 1);
     }
   });
 }
